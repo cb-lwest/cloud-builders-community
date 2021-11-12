@@ -38,9 +38,9 @@ module "gke" {
   subnetwork         = "subnet3-scongdon"
   ip_range_pods      = ""
   ip_range_services  = ""
-}
 
-node_pools = [
+
+  node_pools = [
     {
       name                      = "default-node-pool"
       machine_type              = "e2-micro"
@@ -58,3 +58,4 @@ node_pools = [
       initial_node_count        = 80
     },
   ]
+}
