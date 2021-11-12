@@ -4,5 +4,5 @@ variable "project-name" {
 
 variable "region" {
   type    = "string"
-  default = "us-east1-d"
+  default = "us-east4"
 }
